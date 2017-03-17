@@ -1,3 +1,5 @@
 run.slurm
 stdout
 stderr
+docs/build/
+docs/site/

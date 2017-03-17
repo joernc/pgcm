@@ -1,11 +1,14 @@
 using HDF5
 
+"""
+    ModelSetup
+
+Includes all information about the model setup, i.e. physical parameters, bathymetry
+information, numerical parameters, fields needed in the calculation, and inversion matrices
+for the implicit diffusion and the barotropic streamfunction calculation.
+"""
 immutable ModelSetup
 
-  # This type includes all information about the model setup, i.e. physical
-  # parameters, bathymetry information, numerical parameters, fields needed
-  # in the calculation, and inversion matrices for the implicit diffusion and
-  # the barotropic streamfunction calculation.
 
   # aspect ratio
   a::Float64

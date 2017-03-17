@@ -1,0 +1,5 @@
+# PGCM documentation
+
+```@docs
+ModelSetup
+```
